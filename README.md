@@ -39,13 +39,11 @@ Steps to install Open MPI are listed [here](https://www.open-mpi.org/faq/?catego
 $ pip install horovod
 ```
 
-This basic installation is good for laptops and for getting to know Horovod.
-If you're installing Horovod on a server with GPUs, read the [Horovod on GPU](docs/gpus.md) page.
 
 ## Concepts
 
 Horovod core principles are based on [MPI](http://mpi-forum.org/) concepts such as *size*, *rank*,
-*local rank*, *allreduce*, *allgather* and *broadcast*. See [here](docs/concepts.md) for more details.
+*local rank*, *allreduce*, *allgather* and *broadcast*. 
 
 ## Usage
 
@@ -65,7 +63,7 @@ To use Horovod, make the following additions to your program:
     processes. Alternatively, if you're not using `MonitoredTrainingSession`, you can simply execute the
     `hvd.broadcast_global_variables` op after global variables have been initialized.
 
-Example (see the [examples](examples/) directory for full training examples):
+Example 
 
 ```python
 import tensorflow as tf
