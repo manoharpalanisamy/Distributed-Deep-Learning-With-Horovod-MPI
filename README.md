@@ -1,4 +1,4 @@
-# Distributed Deep Learning With Horovod MPI
+# Distributed Deep Learning With Horovod And MPI
 # Horovod
 
 [![Build Status](https://travis-ci.org/uber/horovod.svg?branch=master)](https://travis-ci.org/uber/horovod) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
